@@ -55,7 +55,7 @@ As can be seen with figure 4 and 5, training stagnates after a certain point, ex
 Figure 23
  First Header | Second Header | Test Accuracy | Time
 ------------- | ------------- | ------------- | ----
-     10       |       .0899.  | .092          | 15.5
+10|23|.092|15.5
 Figure 2
 
 
@@ -76,8 +76,8 @@ Figure 2
 
 ## Authors
 
-* Shiv Patel – Model Implementation
-* Jainy Patel
+* Shiv Patel – _Model Implementation_
+* Jainy Patel - _Model Implementation_
 
 
 ## Acknowledgements
