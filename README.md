@@ -125,9 +125,9 @@ _Figure 5_
 
 ## Acknowledgements
 
-* Kashif Rasul – Initial Dataset Provider – [Zalando Research]( https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/
+* Kashif Rasul – _Initial Dataset Provider_ – [Zalando Research]( https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/
 )
-* Han Xiao – Initial Data Provider – [Zalando Research]( https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/
+* Han Xiao – _Initial Data Provider_ – [Zalando Research]( https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/
 )
 
 
