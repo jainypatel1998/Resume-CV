@@ -42,6 +42,8 @@ A basic block is what is used for ResNet 18 and ResNet 34 because it is affordab
 ![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)
 _Figure 1 Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)_
 
+<p>&nbsp;</p>
+
 ![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
 _Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
 
