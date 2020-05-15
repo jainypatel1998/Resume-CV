@@ -38,13 +38,12 @@ Bottleneck Architecture is used in deep learning to simplify computational consi
 
 A basic block is what is used for ResNet 18 and ResNet 34 because it is affordable using a simple GPU ram however when it comes to having as many as 50 neural network layers in between, using a basic block wastes much of the GPU ram to run expensive 3 x 3 convolutions. The visual difference between a basic block and a bottleneck block is shown in figure 2. A simple bottleneck uses a 1 x 1 convolution to reduce the channels of the input before performing the expensive 3 x 3 convolutions. Once this has been done, it uses another 1 x 1 convolution to restore the dimensions back to the original shape. For our project, we have used sixteen residual blocks with different input dimensions taken from the output of the previous layer. To simplify the number of blocks used in one run, we divided all sixteen blocks into four stages with different numbers of blocks in every stage. Stage 1 contains three blocks, stage 2 contains four blocks, stage 3 contains six blocks and stage 4 contains three blocks. 
 
-<div style="center">Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)
 
 ![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)
-<div align="center">_Figure 1 Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)_
+_Figure 1 Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)_
 
 ![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
-<div align="center">_Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
+_Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
 
 <p>&nbsp;</p>
 
@@ -53,7 +52,7 @@ Throughout the bottleneck blocks, we also used ReLU activation at every point af
 <p>&nbsp;</p>
 
 ![Figure 3](https://github.com/jainypatel1998/Resume_CV/blob/master/figure3.png)
-<div align="center">_Figure 3_
+_Figure 3_
 
 <p>&nbsp;</p>
 
