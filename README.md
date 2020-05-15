@@ -1,6 +1,6 @@
 
 
-# Training Fashion - MNIST dataset with ResNET50
+# Training Fashion - MNIST dataset with ResNet - 50
 
 In this project, We sought to create a lightweight, but still accurate model for a classification problem. We trained a model on the pre-standardized Fashion-MNIST dataset. We aimed to create a classification model that could categorize the outfits into different pieces of clothing. We tested different model parameters in hopes to create the most efficient but still accurate model, to ensure we didn’t reach diminishing returns, in reference to time and resources spent in training.
 
