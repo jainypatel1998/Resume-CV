@@ -45,6 +45,7 @@ _Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)_
 _Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
 
 Testing 1|testing 2
+---------|---------
 ![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)|![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
 
 <p>&nbsp;</p>
