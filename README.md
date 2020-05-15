@@ -29,7 +29,7 @@ Along with that, many other libraries have also been used for minor purposes suc
 
 To simplify the input, we start by max pooling the dataset. However, to make the process of max pooling easier, we start by applying batch normalization to the input first. The purpose of doing this is because it helps with speed, accuracy and efficiency of the database. 
 
-After that, we proceed with applying max pooling operation to the output from the batch normalization. When added to a model, max pooling reduces the dimensionality of images by reducing the number of pixels in the output of the previous layer. For our purposes, our model downsizes the input to a 3 x 3 and uses a stride of two for max coverage of the image before it proceeds next to the bottleneck architecture. 
+After that, we proceed with applying ReLU activation to the output from batch normalization and applying max pooling operation to the output from the previous layer. When added to a model, max pooling reduces the dimensionality of images by reducing the number of pixels in the output of the previous layer. For our purposes, our model downsizes the input to a 3 x 3 and uses a stride of two for max coverage of the image before it proceeds next to the bottleneck architecture. 
 
 
 ### Bottleneck Architecture
