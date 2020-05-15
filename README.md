@@ -36,7 +36,8 @@ Bottleneck Architecture is used in deep learning to simplify computational consi
 
 A basic block is what is used for ResNet 18 and ResNet 34 because it is affordable using a simple GPU ram however when it comes to having as many as 50 neural network layers in between, using a basic block wastes much of the GPU ram to run expensive 3 x 3 convolutions. The visual difference between a basic block and a bottleneck block is shown in figure 2. A simple bottleneck uses a 1 x 1 convolution to reduce the channels of the input before performing the expensive 3 x 3 convolutions. Once this has been done, it uses another 1 x 1 convolution to restore the dimensions back to the original shape. For our project, we have used sixteen residual blocks with different input dimensions taken from the output of the previous layer. To simplify the number of blocks used in one run, we divided all sixteen blocks into four stages with different numbers of blocks in every stage. Stage 1 contains three blocks, stage 2 contains four blocks, stage 3 contains six blocks and stage 4 contains three blocks. 
 
-![Figure 2](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)
+![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)
+![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
 
@@ -60,14 +61,35 @@ As can be seen with figure 4 and 5, training stagnates after a certain point, ex
 Figure 23
  First Header | Second Header | Test Accuracy | Time
 ------------- | ------------- | ------------- | ----
-10|23|.092|15.5
-
-
-
+10|0.87858|0.87318|15.98
+20|0.90346|0.88866|33.47
+30|0.91821|0.89424|47.79
+40|0.92908|0.89741|63.51
+50|0.93753|0.89876|79.11
+60|0.94403|0.90037|94.71
+70|0.94957|0.90144|110.46
+80|0.95402|0.90227|126.11
+90|0.95776|0.90229|141.8
+100|0.96101|0.90368|157.5
+110|0.96355|0.90411|172.86
+120|0.96578|0.90452|188.1
+130|0.96779|0.90486|203.44
+140|0.96955|0.90526|219
+150|0.97105|0.90559|234.56
+160|0.97236|0.90574|250.06
+170|0.97364|0.90607|265.57
+180|0.97439|0.90623|281.25
+190|0.97541|0.90644|296.9
+200|0.97636|0.90663|312.61
 
 
 ![Dataplot](https://github.com/jainypatel1998/Resume_CV/blob/master/Train1.png)
+Figure 1
+_Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)
+
 ![Dataplot](https://github.com/jainypatel1998/Resume_CV/blob/master/Train2.png)
+Figure 2
+_Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
 
 
 <p>&nbsp;</p>
