@@ -15,7 +15,7 @@ We also needed to find the point of diminishing returns, to ensure we were able 
 
 Start the project by installing TensorFlow GPU version 2.0. This part is very crucial for the project since the dataset used is very large and therefore won’t work on a standard CPU. For our convenience, we used Google Colab as the platform to perform training and testing on the given dataset. Ensure the runtime you’re running has GPU acceleration enabled.
 
-<p>&nbsp;</p>
+<br />
 
 ### Imports
 
