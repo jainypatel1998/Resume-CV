@@ -48,6 +48,8 @@ _Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/vi
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
 
+<p>&nbsp;</p>
+
 ![Figure 3](https://github.com/jainypatel1998/Resume_CV/blob/master/figure3.png)
 _Figure 3_
 
