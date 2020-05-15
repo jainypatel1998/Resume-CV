@@ -1,5 +1,4 @@
 
-<p>&nbsp;</p>
 
 # KDTraining Fashion - MNIST dataset with ResNET50
 
@@ -37,6 +36,7 @@ Bottleneck Architecture is used in deep learning to simplify computational consi
 A basic block is what is used for ResNet 18 and ResNet 34 because it is affordable using a simple GPU ram however when it comes to having as many as 50 neural network layers in between, using a basic block wastes much of the GPU ram to run expensive 3 x 3 convolutions. The visual difference between a basic block and a bottleneck block is shown in figure 2. A simple bottleneck uses a 1 x 1 convolution to reduce the channels of the input before performing the expensive 3 x 3 convolutions. Once this has been done, it uses another 1 x 1 convolution to restore the dimensions back to the original shape. For our project, we have used sixteen residual blocks with different input dimensions taken from the output of the previous layer. To simplify the number of blocks used in one run, we divided all sixteen blocks into four stages with different numbers of blocks in every stage. Stage 1 contains three blocks, stage 2 contains four blocks, stage 3 contains six blocks and stage 4 contains three blocks. 
 
 ![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)
+Figure 1
 ![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
