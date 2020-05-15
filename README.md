@@ -10,7 +10,6 @@ The purpose of replacing the original MNIST dataset is because it’s commonly u
 We also needed to find the point of diminishing returns, to ensure we were able to reach the highest point of accuracy, while maintaining proper training times, and resource usage. To ensure this, we used a dataset with about 60,000 training images as well as 10,000 testing images.
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 ## Getting Started
 
@@ -32,6 +31,7 @@ To simplify the input, we start by max pooling the dataset. However, to make the
 
 After that, we proceed with applying max pooling operation to the output from the batch normalization. When added to a model, max pooling reduces the dimensionality of images by reducing the number of pixels in the output of the previous layer. For our purposes, our model downsizes the input to a 3 x 3 and uses a stride of two for max coverage of the image before it proceeds next to the bottleneck architecture. 
 
+<p>&nbsp;</p>
 
 ### Bottleneck Architecture
 
@@ -41,18 +41,19 @@ A basic block is what is used for resNet 18 and resNet 34 because it is affordab
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
 
+<p>&nbsp;</p>
 
 ### Average Pooling
 
 Once all stages have been run, the final step is to apply average pooling on the output given from the stage 4. Average pooling is used to compute the average for each patch of the feature map. Since at this point we have completed computing all residual blocks therefore to get accurate results we choose to use average pooling over max pooling. In simple terms, the difference between max pooling and average pooling is mainly the fact that max pooling will extract the most important features of an image like edges whereas average pooling takes everything into account and returns an average value which is beneficial for us since now we read though all of our input images.  
 
-
+<p>&nbsp;</p>
 
 ## Running the Tests
 
 To test and train the model, run the ipynb model file on google colab. Use a GPU enabled runtime for decreased training and testing time. Initialize the dataset by importing it from the tensorflow dataset library. Edit the batch size and epoch count in the block titled “model parameters.” Epoch count greatly affects the training time, and accuracy, therefore it is important to find a balance between an epoch high enough to maintain proper accuracy, but low enough to maintain proper training times. Train the model using the aforementioned parameters, and test it after training is concluded. After testing is concluded, charts are generated depicting training and testing accuracy.
 
-
+<p>&nbsp;</p>
 
 ## Results
 
@@ -69,7 +70,7 @@ Figure 2
 
 ![Dataplot](https://github.com/jainypatel1998/Resume_CV/blob/master/Train1.png)
 
-
+<p>&nbsp;</p>
 
 ## Built With
 
@@ -78,13 +79,14 @@ Figure 2
  * [NumPy](https://numpy.org/) – Used to print training and testing accuracy
  * [MatPlot](https://matplotlib.org/) – Used to display results as plots
 
-
+<p>&nbsp;</p>
 
 ## Authors
 
 * Shiv Patel – _Model Implementation_
 * Jainy Patel - _Model Implementation_
 
+<p>&nbsp;</p>
 
 ## Acknowledgements
 
