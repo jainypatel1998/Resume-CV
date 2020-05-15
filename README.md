@@ -9,6 +9,7 @@ The purpose of replacing the original MNIST dataset is because it’s commonly u
 We also needed to find the point of diminishing returns, to ensure we were able to reach the highest point of accuracy, while maintaining proper training times, and resource usage. To ensure this, we used a dataset with about 60,000 training images as well as 10,000 testing images.
 
 ![CoverImage](https://github.com/zalandoresearch/fashion-mnist/blob/master/doc/img/embedding.gif)
+_Source: [Zalando Research](https://github.com/zalandoresearch/fashion-mnist/blob/master/doc/img/embedding.gif)_
 
 <p>&nbsp;</p>
 
