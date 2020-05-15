@@ -15,7 +15,6 @@ We also needed to find the point of diminishing returns, to ensure we were able 
 
 Start the project by installing TensorFlow GPU version 2.0. This part is very crucial for the project since the dataset used is very large and therefore won’t work on a standard CPU. For our convenience, we used Google Colab as the platform to perform training and testing on the given dataset. Ensure the runtime you’re running has GPU acceleration enabled.
 
-<br />
 
 ### Imports
 
@@ -23,7 +22,6 @@ Tensorflow is widely used to design our model. To be specific, we used the ResNE
 
 Along with that, many other libraries have also been used for minor purposes such as time, numpy and matplot. Each of these play a special role to make the user understand their model better. Numpy helped us keep track of the number of epochs, loss, accuracy and as well as time spent to run each epoch. Matplot makes it easier to include diagrams in your model. It helped print data visually in a graph to show changes in model accuracy throughout the total number of epochs. 
 
-<p>&nbsp;</p>
 
 ### MaxPooling
 
@@ -31,7 +29,6 @@ To simplify the input, we start by max pooling the dataset. However, to make the
 
 After that, we proceed with applying max pooling operation to the output from the batch normalization. When added to a model, max pooling reduces the dimensionality of images by reducing the number of pixels in the output of the previous layer. For our purposes, our model downsizes the input to a 3 x 3 and uses a stride of two for max coverage of the image before it proceeds next to the bottleneck architecture. 
 
-<p>&nbsp;</p>
 
 ### Bottleneck Architecture
 
@@ -41,7 +38,6 @@ A basic block is what is used for resNet 18 and resNet 34 because it is affordab
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
 
-<p>&nbsp;</p>
 
 ### Average Pooling
 
