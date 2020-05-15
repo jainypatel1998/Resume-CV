@@ -99,10 +99,10 @@ As can be seen with figure 4 and 5, training stagnates after a certain point, ex
 200|0.97636|0.90663|312.61
 
 ![Dataplot](https://github.com/jainypatel1998/Resume_CV/blob/master/Train1.png)
-_Figure 4_
+_Figure 4  _
 
 ![Dataplot](https://github.com/jainypatel1998/Resume_CV/blob/master/Train2.png)
-_Figure 5_
+_Figure 5. _
 
 
 <p>&nbsp;</p>
