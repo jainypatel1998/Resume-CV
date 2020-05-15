@@ -44,10 +44,6 @@ _Source: [Bottleneck Architecture](https://i.stack.imgur.com/kbiIG.png)_
 ![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
 _Figure 2 Source: [Autoencoders of Raw Image](https://www.oreilly.com/library/view/python-advanced-guide/9781789957211/36b29e69-46c1-46fd-abb0-960d85534913.xhtml)_
 
-Testing 1|testing 2
----------|---------
-![Figure 1](https://github.com/jainypatel1998/Resume_CV/blob/master/figure1.png)|![Figure 2](https://github.com/jainypatel1998/Resume_CV/blob/master/figure2.png)
-
 <p>&nbsp;</p>
 
 Throughout the bottleneck blocks, we also used ReLU activation at every point after the dimensions of the data were resized. Activation functions are a very crucial part of any neural network model. They help determine the output of the model itself by defining its accuracy and efficiency of the training model. ReLU is also shown to be very efficient as well as very simple to use in deep learning. The reason why we used ReLU for this specific model is mainly because ResNet was initially designed this way.  To simplify the flow of one residual block in ResNet, take a look at figure 3. 
