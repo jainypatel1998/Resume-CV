@@ -1,4 +1,6 @@
 
+<p>&nbsp;</p>
+
 # KDTraining Fashion - MNIST dataset with ResNET50
 
 In this project, We sought to create a lightweight, but still accurate model for a classification problem. We trained a model on the pre-standardized Fashion-MNIST dataset. We aimed to create a classification model that could categorize the outfits into different pieces of clothing. We tested different model parameters in hopes to create the most efficient but still accurate model, to ensure we didn’t reach diminishing returns, in reference to time and resources spent in training.
@@ -7,11 +9,14 @@ The purpose of replacing the original MNIST dataset is because it’s commonly u
 
 We also needed to find the point of diminishing returns, to ensure we were able to reach the highest point of accuracy, while maintaining proper training times, and resource usage. To ensure this, we used a dataset with about 60,000 training images as well as 10,000 testing images.
 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## Getting Started
 
 Start the project by installing TensorFlow GPU version 2.0. This part is very crucial for the project since the dataset used is very large and therefore won’t work on a standard CPU. For our convenience, we used Google Colab as the platform to perform training and testing on the given dataset. Ensure the runtime you’re running has GPU acceleration enabled.
+
+<p>&nbsp;</p>
 
 ### Imports
 
@@ -19,6 +24,7 @@ Tensorflow is widely used to design our model. To be specific, we used the ResNE
 
 Along with that, many other libraries have also been used for minor purposes such as time, numpy and matplot. Each of these play a special role to make the user understand their model better. Numpy helped us keep track of the number of epochs, loss, accuracy and as well as time spent to run each epoch. Matplot makes it easier to include diagrams in your model. It helped print data visually in a graph to show changes in model accuracy throughout the total number of epochs. 
 
+<p>&nbsp;</p>
 
 ### MaxPooling
 
